@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
     <OPENCV_VERSION>246</OPENCV_VERSION>
-    <OPENCV_DIR>c:\bin\opencv/$(OPENCV_VERSION)/opencv/build</OPENCV_DIR>
+    <OPENCV_DIR>$(MSBuildThisFileDirectory)/$(OPENCV_VERSION)/opencv/build</OPENCV_DIR>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup>
